@@ -1,0 +1,22 @@
+.donation {
+  background-color: $color-light-l;
+}
+
+.donation__wrapper {
+  display: flex;
+  padding: 80px 182px 100px 183px;
+}
+
+.donation__img {
+  padding: 11px 15px 10px 0;
+}
+
+.donation__content {
+  padding: 15px 0 0 0;
+}
+
+.donation__header {
+  color: $color-dark-l;
+  padding: 0 80px 20px 0;
+  margin: 0;
+}

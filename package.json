@@ -1,0 +1,13 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.0",
+  "description": "https://sanyaliv.github.io/rsschool-cv/cv <br>\r https://sanyaliv.github.io/rsschool-cv/",
+  "main": "index.js",
+
+  "scripts": {
+    "style": "sass --watch shelt/sass/style.scss shelt/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
