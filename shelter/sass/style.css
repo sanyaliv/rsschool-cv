@@ -88,11 +88,11 @@ h2 {
 
 .donation__wrapper {
   display: flex;
-  padding: 80px 182px 100px 183px;
+  padding: 80px 40px 100px 40px;
 }
 
 .donation__img {
-  padding: 11px 15px 10px 0;
+  padding: 11px 15px 10px 143px;
 }
 
 .donation__content {
@@ -107,7 +107,7 @@ h2 {
 
 .header {
   padding: 30px 40px 0 40px;
-  background: url("/shelt/img/start-screen-background.png");
+  background: url("/shelter/img/start-screen-background.png");
   background-size: 100%;
 }
 
@@ -147,7 +147,7 @@ li {
 }
 
 .start {
-  background: url("/shelt/img/start-screen-background.png");
+  background: url("/shelter/img/start-screen-background.png");
   background-size: 100%;
 }
 
