@@ -12,11 +12,48 @@
 }
 
 .donation__content {
-  padding: 15px 0 0 0;
+  padding: 15px 142px 0 15px;
 }
 
 .donation__header {
   color: $color-dark-l;
-  padding: 0 80px 20px 0;
+  padding: 0 80px 10px 0;
+  margin: 0;
+}
+
+.donation__bank {
+  color: $color-dark-l;
+  padding: 10px 73px 10px 0;
+  margin: 0;
+}
+
+.card_number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 349px;
+  height: 43px;
+  border-radius: 9px;
+  background-color: $color-primary;
+  margin: 10px 0 10px 0;
+}
+
+.card__text {
+  color: $color-dark-l;
+  font-size: 2rem;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.card__image {
+  padding: 10px 0 10px 0;
+}
+
+.card__info {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: $color-dark-m;
+  padding: 10px 0 0 0;
   margin: 0;
 }

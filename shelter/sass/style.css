@@ -96,12 +96,49 @@ h2 {
 }
 
 .donation__content {
-  padding: 15px 0 0 0;
+  padding: 15px 142px 0 15px;
 }
 
 .donation__header {
   color: #545454;
-  padding: 0 80px 20px 0;
+  padding: 0 80px 10px 0;
+  margin: 0;
+}
+
+.donation__bank {
+  color: #545454;
+  padding: 10px 73px 10px 0;
+  margin: 0;
+}
+
+.card_number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 349px;
+  height: 43px;
+  border-radius: 9px;
+  background-color: #F1CDB3;
+  margin: 10px 0 10px 0;
+}
+
+.card__text {
+  color: #545454;
+  font-size: 2rem;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.card__image {
+  padding: 10px 0 10px 0;
+}
+
+.card__info {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #B2B2B2;
+  padding: 10px 0 0 0;
   margin: 0;
 }
 
@@ -256,6 +293,73 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 87px 0 87px;
+}
+
+.footer {
+  background: url("/shelter/img/footer-background.png");
+  background-size: 100%;
+}
+
+.footer__wrapper {
+  display: flex;
+  padding: 40px 40px 0 40px;
+  height: 310px;
+}
+
+.footer__contacts {
+  font-size: 2rem;
+  color: #F1CDB3;
+  padding: 16px 80px 60px 0;
+}
+
+.footer__address {
+  font-size: 2rem;
+  color: #F1CDB3;
+  padding: 16px 80px 60px 80px;
+}
+
+.footer_img {
+  padding: 0 0 0 80px;
+}
+
+.address__header {
+  padding: 0 31px 34px 1px;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.contacts__header {
+  padding: 0 0 40px 0;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.contacts__email {
+  display: flex;
+  align-items: center;
+  padding: 0 27px 20px 0;
+}
+
+.contacts__phone {
+  display: flex;
+  align-items: center;
+}
+
+.contacts__address {
+  display: flex;
+  align-items: center;
+}
+
+.address__text {
+  padding: 0 0 0 20px;
+}
+
+.email__text {
+  padding: 0 0 0 20px;
+}
+
+.phone__text {
+  padding: 0 0 0 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

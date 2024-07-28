@@ -1,0 +1,67 @@
+.footer {
+  background: url("/shelter/img/footer-background.png");
+  background-size: 100%;
+}
+
+.footer__wrapper {
+  display: flex;
+  padding: 40px 40px 0 40px;
+  height: 310px;
+}
+
+.footer__contacts {
+  font-size: 2rem;
+  color: $color-primary;
+  padding: 16px 80px 60px 0;
+}
+
+.footer__address {
+  font-size: 2rem;
+  color: $color-primary;
+  padding: 16px 80px 60px 80px;
+}
+
+.footer_img {
+  padding: 0 0 0 80px;
+}
+
+.address__header {
+  padding: 0 31px 34px 1px;
+  margin: 0;
+  color: $color-light-xl;
+}
+
+.contacts__header {
+  padding: 0 0 40px 0;
+  margin: 0;
+  color: $color-light-xl;
+}
+
+.contacts__email {
+  display: flex;
+  align-items: center;
+  padding: 0 27px 20px 0;
+}
+
+.contacts__phone {
+  display: flex;
+  align-items: center;
+  //padding: 20px 39px 0 0;
+}
+
+.contacts__address {
+  display: flex;
+  align-items: center;
+}
+
+.address__text {
+  padding: 0 0 0 20px;
+}
+
+.email__text {
+  padding: 0 0 0 20px;
+}
+
+.phone__text {
+  padding: 0 0 0 20px;
+}

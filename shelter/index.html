@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shelter</title>
+    <link rel="icon" type="image/x-icon" href="/shelter/img/favicon.ico">
     <link rel="stylesheet" href="sass/style.css">
 </head>
 <body>
@@ -160,30 +161,63 @@
                 <img src="img/donation-dog.png" alt="donation">
             </div>
             <div class="donation__content">
-                <h2 class="donation__header">You can also make a donation</h2>
-                <p>Name of the bank / Type of bank account</p>
+                <h2 class="donation__header">You can also <br /> make a donation</h2>
+                <p class="donation__bank">Name of the bank / Type of bank account</p>
                 <div class="card_number">
-                    <span class="icon card__icon"></span>8380 2880 8028 8791 7435
+                    <div class="card__image">
+                        <img src="img/credit-card.png" alt="credit_card">
+                    </div>
+                    <p class="card__text">8380 2880 8028 8791 7435</p>
                 </div>
-                <p>Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                <p class="card__info">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
             </div>
         </div>
     </section>
 </main>
 <footer class="footer">
-    <div class="wrapper">
+    <div class="wrapper footer__wrapper">
         <div class="footer__contacts">
-            <h2>For questions and suggestions</h2>
-            <span class="icon email_icon"></span>email@shelter.com
-            <span class="icon phone_icon"></span>+13 674 567 75 54
+            <h2 class="contacts__header">For questions and suggestions</h2>
+
+            <div class="contacts__email">
+                <div class="email__image">
+                    <img src="img/icon-email.png" alt="email">
+                </div>
+                <p class="email__text">email@shelter.com</p>
+            </div>
+
+            <div class="contacts__phone">
+                <div class="phone__image">
+                    <img src="img/icon-phone.png" alt="phone">
+                </div>
+                <p class="phone__text">+13 674 567 75 54</p>
+            </div>
         </div>
         <div class="footer__address">
-            <h2>We are waiting for your visit</h2>
-            <span class="icon address_icon"></span>1 Central Street, Boston (entrance from the store)
-            <span class="icon address_icon"></span>18 South Park, London
+            <h2 class="address__header">We are waiting for your visit</h2>
+<!--            <span class="icon address_icon"></span>1 Central Street, Boston (entrance from the store)-->
+<!--            <br />-->
+<!--            <span class="icon address_icon"></span>18 South Park, London-->
+
+
+            <div class="contacts__address">
+                <div class="address__image">
+                    <img src="img/icon-marker.png" alt="marker">
+                </div>
+                <p class="address__text">1 Central Street, Boston (entrance from the store)</p>
+            </div>
+
+            <div class="contacts__address">
+                <div class="address__image">
+                    <img src="img/icon-marker.png" alt="marker">
+                </div>
+                <p class="address__text">18 South Park, London</p>
+            </div>
+
+
         </div>
         <div class="footer_img">
-
+            <img src="img/footer-puppy.png" alt="footer_dog">
         </div>
     </div>
 </footer>
