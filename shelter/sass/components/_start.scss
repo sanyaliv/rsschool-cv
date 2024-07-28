@@ -1,0 +1,39 @@
+.start {
+  background: url("/shelter/img/start-screen-background.png");
+  background-size: 100%;
+}
+
+.start__wrapper {
+  padding: 0 40px;
+  display: flex;
+}
+
+.start__content {
+  padding: 253px 42px 243px 0;
+}
+
+.start__header {
+  font-size: 4.4rem;
+  color: $color-light-xl;
+  margin: 0 130px 42px 0;
+}
+
+.start__text {
+  font-family: Arial, sans-serif;
+  line-height: 2.4rem;
+  color: $color-dark-s;
+  //margin: 42px 42px 21px 0;
+}
+
+.start__button {
+  width: 207px;
+  height: 52px;
+  border: none;
+  border-radius: 100px;
+  background-color: $color-primary;
+  margin: 21px 253px 0 0;
+}
+
+.start__image {
+  padding: 90px 0 0 0;
+}

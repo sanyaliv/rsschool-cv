@@ -1,0 +1,43 @@
+.help {
+  background-color: $color-light-xl;
+}
+
+.help__wrapper {
+  padding: 80px 40px 100px 40px;
+}
+
+.help__header {
+  color: $color-dark-l;
+  text-align: center;
+  padding: 0 446px 5px 446px;
+  margin: 0;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-dark-l;
+  font-size: 2rem;
+  padding: 55px 120px 0 0;
+}
+
+.element__shampoos {
+  padding: 55px 0 0 0;
+}
+
+.element__vitamins {
+  padding: 55px 120px 0 84px;
+}
+
+.element_sleep {
+  padding: 55px 84px 0 0;
+}
+
+.layout-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 87px 0 87px;
+}
+

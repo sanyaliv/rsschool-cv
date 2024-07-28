@@ -1,0 +1,29 @@
+.about {
+  background-color: $color-light-xl;
+}
+
+.about__wrapper {
+  padding: 80px 40px 100px 40px;
+  display: flex;
+}
+
+.about__content {
+  padding: 14px 175px 14px 58px;
+}
+
+.about__image {
+  padding: 0 60px 0 175px;
+}
+
+.about__header {
+  color: $color-dark-l;
+  padding: 0 60px 0 0;
+  margin: 0;
+}
+
+.about__text {
+  font-family: Arial, sans-serif;
+  color: $color-dark-xl;
+  padding: 25px 0 0 0;
+  margin: 0;
+}
